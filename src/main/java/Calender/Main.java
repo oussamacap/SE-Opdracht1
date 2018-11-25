@@ -7,10 +7,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        // Het jaar op halen die de gebruiker heeft getypt en in de var input zetten
         int input = getInput();
+
+        //begin datum van het jaar dat zal worden uitgeprint
         LocalDate startDate = LocalDate.of(input, Month.JANUARY, 1);
 
+        // object calender hierin zit de methode om een calender uit te printen
         Calender calender = new Calender();
+        //Hier roep de methode om calender uit te printen met de startdatum die van de var startdate
         calender.printCalender(startDate);
     }
 

@@ -51,6 +51,7 @@ public class Main {
         }
 
 // dagen van de maand Jan uitgeprint met daarboven de weekdagen afgerkort
+        // ik vond 2 dim array het lastigste van de opdracht
         int getal = 1;
         int[][] twoD = new int[6][7];
         for (int i = 0; i < twoD.length; i++) {
